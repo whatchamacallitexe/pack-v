@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <script>
+        
+        const blobUrlss = {
+            "gmsoftsdk_v5.js": " ",
+            "main.min.js": " ",
+        }
+        
+        const ORIGINAL_CREATE_ELEMENT = document.createElement;
+    const ORIGINAL_SET_ATTRIBUTE = Element.prototype.setAttribute;
+
+    
+    document.createElement = function(tagName) {
+        const el = ORIGINAL_CREATE_ELEMENT.call(this, tagName);
+
+        if (tagName.toLowerCase() === 'script') {
+            Object.defineProperty(el, 'src', {
+                set(newSrc) {
+                    const filename = extractFilename(newSrc);
+                    const replacement = blobUrlss[filename];
+                    if (replacement) {
+                        
+                        ORIGINAL_SET_ATTRIBUTE.call(el, 'src', replacement);
+                        return;
+                    }
+                    ORIGINAL_SET_ATTRIBUTE.call(el, 'src', newSrc);
+                },
+                get() {
+                    return el.getAttribute('src');
+                }
+            });
+        }
+        return el;
+    };
+
+    function extractFilename(url) {
+        return url.split('/').pop().split('?')[0];
+    }
+    </script>
+</head>
+<body>
+    <h1>Battle Karts</h1>
+    <p>Loading...</p>
+</body>
+</html>
