@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!-- Ultimate Game Stash -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ballz</title>
+<script src="https://cdn.jsdelivr.net/gh/somer-sheff-73/xv@main/ruffle.js"></script>
+</head>
+<body style="margin:0;background:black;">
+<div id="container" style="width:100%;height:100vh;"></div>
+<script>
+const ruffle = window.RufflePlayer.newest();
+const player = ruffle.createPlayer();
+document.getElementById("container").appendChild(player);
+player.load("https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@46ec45c16dd33c72226eb4e7f133caf871c3440d/Ballz.swf");
+</script>
+</body>
+</html>
