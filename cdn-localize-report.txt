@@ -8,7 +8,6 @@ FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@46ec45c16dd33c7222
 
 FAILED https://cdn.jsdelivr.net/gh/bubbls/ruffle@ad6ffa3289c102eb4a4aced92a17e4ea291603d5/banasim.js: curl: (22) The requested URL returned error: 404
 
-EMU OK EmulatorJS/EmulatorJS@latest cores=mupen64plus_next
 FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/banjo-kazooie/banjo.z64: curl: (22) The requested URL returned error: 404
 
 BASE MISS bubbls/UGS-Assets@main/baseball-bros
@@ -29,3 +28,4 @@ FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a5648
 
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
+RUFFLE FAIL module 'urllib' has no attribute 'request'
