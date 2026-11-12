@@ -1,86 +1,36 @@
-BASE OK bubbls/UGS-Assets@ab3e2b7f551bcab53684a867b5bc3acfd406ebc6/babel tower -> babel-tower
-BASE REWRITE babel-tower
 FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/baby%20chicco/Build/UnityLoader.js: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/baby%20chicco/Build/WebGL.json: curl: (22) The requested URL returned error: 404
 
-FILE backrooms-2d: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@300ae6aa00a22c1a9fd2cdc7bf209b278ae2f4b2/backrooms%202D/TemplateData/style.css -> assets/cdn/db776db0-style.css
-FILE bad-ice-cream: https://cdn.jsdelivr.net/npm/@ruffle-rs/ruffle@0.2.0-nightly.2025.10.2/ruffle.min.js -> assets/cdn/d3db844a-ruffle.min.js
-FILE bad-ice-cream: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@8fecedfd237e90740ce30b860005e6819b6df9cd/Bad-Ice-Cream.swf -> assets/cdn/3251618f-Bad-Ice-Cream.swf
-BASE OK bubbls/UGS-Assets@main/bad-parenting -> bad-parenting
-BASE REWRITE bad-parenting
+FILE backrooms-2d: https://rawcdn.githack.com/bubbls/UGS-Assets/300ae6aa00a22c1a9fd2cdc7bf209b278ae2f4b2/backrooms%202D/7-21-23.loader.js -> assets/cdn/628d8477-7-21-23.loader.js
+SKIP size 77.5MB https://rawcdn.githack.com/bubbls/UGS-Assets/300ae6aa00a22c1a9fd2cdc7bf209b278ae2f4b2/backrooms%202D/7-21-23.data
+FILE backrooms-2d: https://rawcdn.githack.com/bubbls/UGS-Assets/300ae6aa00a22c1a9fd2cdc7bf209b278ae2f4b2/backrooms%202D/7-21-23.framework.js -> assets/cdn/d2cec1ef-7-21-23.framework.js
+FILE backrooms-2d: https://rawcdn.githack.com/bubbls/UGS-Assets/300ae6aa00a22c1a9fd2cdc7bf209b278ae2f4b2/backrooms%202D/7-21-23.wasm -> assets/cdn/7df91c1d-7-21-23.wasm
 BASE SKIP 202.3MB bubbls/UGS-Assets@104c364f36401fd94165923f6b5a76c113e3540e/baldi decomp
-BASE OK bubbls/youtube-playables@main/ball-blast -> ball-blast
-BASE REWRITE ball-blast
-FILE ball-blast: https://cdn.jsdelivr.net/gh/bubbls/youtube-playables@main/ytgame.js -> assets/cdn/20058cc1-ytgame.js
-FILE ballz: https://cdn.jsdelivr.net/gh/somer-sheff-73/xv@main/ruffle.js -> assets/cdn/f0672f91-ruffle.js
 FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@46ec45c16dd33c72226eb4e7f133caf871c3440d/Ballz.swf: curl: (22) The requested URL returned error: 404
 
-FILE banana-simulator: https://cdn.jsdelivr.net/gh/bubbls/ruffle@ad6ffa3289c102eb4a4aced92a17e4ea291603d5/banacss.css -> assets/cdn/f4fb15f7-banacss.css
 FAILED https://cdn.jsdelivr.net/gh/bubbls/ruffle@ad6ffa3289c102eb4a4aced92a17e4ea291603d5/banasim.js: curl: (22) The requested URL returned error: 404
 
-FILE banjo-kazooie: https://cdn.jsdelivr.net/gh/EmulatorJS/EmulatorJS@latest/data/loader.js -> assets/cdn/9abff16c-loader.js
+EMU MISS EmulatorJS/EmulatorJS@latest
 FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/banjo-kazooie/banjo.z64: curl: (22) The requested URL returned error: 404
 
 BASE MISS bubbls/UGS-Assets@main/baseball-bros
 BASE MISS bubbls/UGS-Assets@main/basketball-frvr
-FILE battles: https://cdn.jsdelivr.net/gh/yrgen73/janibatt@2be2779d6614a2a81660ba5a02fdded10d3ec337/style.css -> assets/cdn/bd11a580-style.css
-FILE battles: https://cdn.jsdelivr.net/gh/yrgen73/janibatt@2be2779d6614a2a81660ba5a02fdded10d3ec337/box2d.wasm.js -> assets/cdn/dc3af463-box2d.wasm.js
-FILE battles: https://cdn.jsdelivr.net/gh/yrgen73/janibatt@2be2779d6614a2a81660ba5a02fdded10d3ec337/scripts/supportcheck.js -> assets/cdn/29ce8ae1-supportcheck.js
-FILE battles: https://cdn.jsdelivr.net/gh/yrgen73/janibatt@2be2779d6614a2a81660ba5a02fdded10d3ec337/scripts/offlineclient.js -> assets/cdn/887204e5-offlineclient.js
-FILE battles: https://cdn.jsdelivr.net/gh/yrgen73/janibatt@2be2779d6614a2a81660ba5a02fdded10d3ec337/scripts/main.js -> assets/cdn/8ad4ffc5-main.js
-FILE battles: https://cdn.jsdelivr.net/gh/yrgen73/janibatt@2be2779d6614a2a81660ba5a02fdded10d3ec337/scripts/register-sw.js -> assets/cdn/32c6d64a-register-sw.js
-FILE battlesim: https://cdn.jsdelivr.net/gh/paigerodeghero/academicwebsite@897c910c65e6c68b04c44a6b6eba0b99d0f2f2cf/TemplateData/style.css -> assets/cdn/5c9e4317-style.css
-FILE battlesim: https://cdn.jsdelivr.net/gh/paigerodeghero/academicwebsite@897c910c65e6c68b04c44a6b6eba0b99d0f2f2cf/TemplateData/UnityProgress.js -> assets/cdn/fac31396-UnityProgress.js
-FILE battlesim: https://cdn.jsdelivr.net/gh/gertdoro/UnityBookPage@d022f9378a6b8608796253add7a654c14920f454/Assets/Book-Page%20Curl/sprites/tabs.js -> assets/cdn/8050c104-tabs.js
-FILE battlesim: https://cdn.jsdelivr.net/gh/gertdoro/UnityBookPage@d022f9378a6b8608796253add7a654c14920f454/Assets/Book-Page%20Curl/sprites/tabs.json -> assets/cdn/82ce567f-tabs.json
-BASE OK bubbls/UGS-Assets@main/beach-boxing-sim -> beachboxingsim
-BASE REWRITE beachboxingsim
-BASE OK bubbls/UGS-Assets@main/bearsus -> bearsus
-BASE REWRITE bearsus
-FILE big-time-butter-baron: https://cdn.jsdelivr.net/gh/7DatsonBack/3kh0-Assets@60f2f97b00ffe9566ee06c82ecaf67255931118b/Run%202/waflash/waflash-style.css -> assets/cdn/f8a73723-waflash-style.css
-FILE big-time-butter-baron: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@c9b0b39941430635355612483f8d2aae0fa30f9c/Big_Time_Butter_Baron.swf -> assets/cdn/306de0d0-Big_Time_Butter_Baron.swf
-FILE big-time-butter-baron: https://cdn.jsdelivr.net/gh/zhit73/wafedit@183cb00916e4d250ae5bc9813864f9a70cb9986b/wasm/waflash-player.min.js -> assets/cdn/aed266bb-waflash-player.min.js
-BASE OK bubbls/UGS-Assets@main/flappy-tower -> bigflappytowertinysquare
-BASE REWRITE bigflappytowertinysquare
-FILE bigshotboxing2: https://cdn.jsdelivr.net/gh/bubbls/ruffle@928ddafef660400819c125b731bea55248b1f6de/boxing.js -> assets/cdn/6f02ed85-boxing.js
-BASE OK danielyxie/bitburner@main/. -> bitburner
-BASE REWRITE bitburner
-BASE OK cooldude2349/everything@main/blazedrift -> blazedrifter
-BASE REWRITE blazedrifter
-FILE blockblast: https://cdn.jsdelivr.net/gh/bubblfan/bl/TemplateData/favicon.ico -> assets/cdn/2ab56229-favicon.ico
-FILE blockblast: https://cdn.jsdelivr.net/gh/bubblfan/bl/TemplateData/style.css -> assets/cdn/82c12d5c-style.css
-FILE blockblast: https://cdn.jsdelivr.net/gh/bubblfan/bl/ServiceWorker.js -> assets/cdn/8a93b50b-ServiceWorker.js
-FAILED https://cdn.jsdelivr.net/gh/genizy/google-sites-ruffle@main/ruffle.js: curl: (22) The requested URL returned error: 403
+FAILED https://cdn.jsdelivr.net/gh/genizy/google-sites-ruffle@main/ruffle.js: curl: (22) The requested URL returned error: 404
 
-FAILED https://cdn.jsdelivr.net/gh/genizy/google-sites-ruffle@main/swfs/bmx2.swf: curl: (22) The requested URL returned error: 403
+FAILED https://cdn.jsdelivr.net/gh/genizy/google-sites-ruffle@main/swfs/bmx2.swf: curl: (22) The requested URL returned error: 404
 
-FILE bounty-of-one: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@060a07463cdd2b1007815f81088e4b74d5780d0d/bounty%20of%20one/TemplateData/style.css -> assets/cdn/60ecc0d3-style.css
-FILE bounty-of-one: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@060a07463cdd2b1007815f81088e4b74d5780d0d/bounty%20of%20one/2022.05.25%20Mons%20GameDevCafe.loader.js -> assets/cdn/8e55e75d-2022.05.25_Mons_GameDevCafe.loader.js
-FILE bounty-of-one: https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@060a07463cdd2b1007815f81088e4b74d5780d0d/bounty%20of%20one/2022.05.25%20Mons%20GameDevCafe.framework.js -> assets/cdn/d434372a-2022.05.25_Mons_GameDevCafe.framework.js
-BASE OK bubbls/ruffle@716475a57912e1ed4ac40db3a155b5e862be48ad/btts22 -> btts2
-BASE REWRITE btts2
-BASE OK bubbls/UGS-Assets@bac2e6521a5833190712906cc2dc2bf7d9193672/icy purple head -> icy-purple-head
-BASE REWRITE icy-purple-head
-FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 403
+FILE bounty-of-one: https://rawcdn.githack.com/bubbls/UGS-Assets/060a07463cdd2b1007815f81088e4b74d5780d0d/bounty%20of%20one/2022.05.25%20Mons%20GameDevCafe.data -> assets/cdn/46c2aa58-2022.05.25_Mons_GameDevCafe.data
+FILE bounty-of-one: https://rawcdn.githack.com/bubbls/UGS-Assets/060a07463cdd2b1007815f81088e4b74d5780d0d/bounty%20of%20one/2022.05.25%20Mons%20GameDevCafe.wasm -> assets/cdn/12ed4882-2022.05.25_Mons_GameDevCafe.wasm
+FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
-FILE impossible-quiz: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE impossible-quiz: https://cdn.jsdelivr.net/gh/bubbls/help@0215416323f94dbf06664f094efd7b83a3d2936c/theimpossiblequiz.swf -> ../_shared/836fe05406a4-theimpossiblequiz.swf
 BASE MISS genizy/google-class@HEAD/indian-truck-simulator
-BASE OK genizy/google-class@HEAD/nova-craft -> infinite-craft
-BASE REWRITE infinite-craft
 BASE MISS genizy/google-class@HEAD/interactive-buddy
-FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 403
+FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
-FILE into-space: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE into-space: https://cdn.jsdelivr.net/gh/jackilyna/Airtest@e52ac15bbe52dbc21cc641485e27b1ccbfcebfc6/playground/inspace.swf -> ../_shared/687513259c8c-inspace.swf
 BASE MISS genizy/google-class@HEAD/into-space-2
 BASE MISS genizy/google-class@HEAD/into-space-3
-FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 403
+FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
-FILE intrusion: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE intrusion: https://cdn.jsdelivr.net/gh/Stinkalistic/UGS@main/SWFs/intrusion.swf -> ../_shared/e9b6e107a75c-intrusion.swf
-FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 403
+FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
-FILE iq-ball: https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js -> ../_shared/6fd5328a897b-ruffle.js
-FILE iq-ball: https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@57cfdd85498c46d564ee99f9461e0a618caa51bb/iqball.swf -> assets/cdn/1c6eb13e-iqball.swf
