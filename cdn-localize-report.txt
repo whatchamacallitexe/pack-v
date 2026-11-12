@@ -2,16 +2,13 @@ FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/baby%20chicco/Build/Un
 
 FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/baby%20chicco/Build/WebGL.json: curl: (22) The requested URL returned error: 404
 
-FILE backrooms-2d: https://rawcdn.githack.com/bubbls/UGS-Assets/300ae6aa00a22c1a9fd2cdc7bf209b278ae2f4b2/backrooms%202D/7-21-23.loader.js -> assets/cdn/628d8477-7-21-23.loader.js
 SKIP size 77.5MB https://rawcdn.githack.com/bubbls/UGS-Assets/300ae6aa00a22c1a9fd2cdc7bf209b278ae2f4b2/backrooms%202D/7-21-23.data
-FILE backrooms-2d: https://rawcdn.githack.com/bubbls/UGS-Assets/300ae6aa00a22c1a9fd2cdc7bf209b278ae2f4b2/backrooms%202D/7-21-23.framework.js -> assets/cdn/d2cec1ef-7-21-23.framework.js
-FILE backrooms-2d: https://rawcdn.githack.com/bubbls/UGS-Assets/300ae6aa00a22c1a9fd2cdc7bf209b278ae2f4b2/backrooms%202D/7-21-23.wasm -> assets/cdn/7df91c1d-7-21-23.wasm
 BASE SKIP 202.3MB bubbls/UGS-Assets@104c364f36401fd94165923f6b5a76c113e3540e/baldi decomp
 FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-file-encryption@46ec45c16dd33c72226eb4e7f133caf871c3440d/Ballz.swf: curl: (22) The requested URL returned error: 404
 
 FAILED https://cdn.jsdelivr.net/gh/bubbls/ruffle@ad6ffa3289c102eb4a4aced92a17e4ea291603d5/banasim.js: curl: (22) The requested URL returned error: 404
 
-EMU MISS EmulatorJS/EmulatorJS@latest
+EMU OK EmulatorJS/EmulatorJS@latest cores=mupen64plus_next
 FAILED https://cdn.jsdelivr.net/gh/bubbls/UGS-Assets@main/banjo-kazooie/banjo.z64: curl: (22) The requested URL returned error: 404
 
 BASE MISS bubbls/UGS-Assets@main/baseball-bros
@@ -20,8 +17,6 @@ FAILED https://cdn.jsdelivr.net/gh/genizy/google-sites-ruffle@main/ruffle.js: cu
 
 FAILED https://cdn.jsdelivr.net/gh/genizy/google-sites-ruffle@main/swfs/bmx2.swf: curl: (22) The requested URL returned error: 404
 
-FILE bounty-of-one: https://rawcdn.githack.com/bubbls/UGS-Assets/060a07463cdd2b1007815f81088e4b74d5780d0d/bounty%20of%20one/2022.05.25%20Mons%20GameDevCafe.data -> assets/cdn/46c2aa58-2022.05.25_Mons_GameDevCafe.data
-FILE bounty-of-one: https://rawcdn.githack.com/bubbls/UGS-Assets/060a07463cdd2b1007815f81088e4b74d5780d0d/bounty%20of%20one/2022.05.25%20Mons%20GameDevCafe.wasm -> assets/cdn/12ed4882-2022.05.25_Mons_GameDevCafe.wasm
 FAILED https://cdn.jsdelivr.net/gh/AndreajnRcm4/b398dl2h74v@9a23fbb2373d743a564873251cbb57736ebc1f73/style.css: curl: (22) The requested URL returned error: 404
 
 BASE MISS genizy/google-class@HEAD/indian-truck-simulator
